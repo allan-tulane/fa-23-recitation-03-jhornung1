@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "autograde",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_main.py::test_multiply",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
